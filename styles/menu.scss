@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  width: 1714px;
+  height: 80px;
+  margin: 0px 103px;
+
+  &__itempanel {
+    display: flex;
+    gap: 36px;
+    height: 100%;
+  }
+
+  &__item {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100%;
+
+    &:first-child {
+      font-weight: 600;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+  }
+
+  input {
+    width: 338px;
+    height: 48px;
+    border: 1px solid #8C8C8C;
+    border-radius: 35px;
+  }
+
+}

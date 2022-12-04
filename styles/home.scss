@@ -1,0 +1,26 @@
+.home {
+
+  &__image1 {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+  }
+
+  &__image1-text {
+    position: absolute;
+    left: 163px;
+    bottom: 103px;
+    width: 660px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: capitalize;
+
+    /* Color 3 */
+
+    color: #FFFFFF;
+  }
+
+}

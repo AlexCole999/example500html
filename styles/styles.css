@@ -57,6 +57,11 @@ ol[class] {
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a {
+  text-decoration: none;
+  color: black;
+}
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
@@ -89,6 +94,62 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  width: 1714px;
+  height: 80px;
+  margin: 0px 103px;
+}
+.menu__itempanel {
+  display: flex;
+  gap: 36px;
+  height: 100%;
+}
+.menu__item {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100%;
+}
+.menu__item:first-child {
+  font-weight: 600;
+}
+.menu__item a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.menu input {
+  width: 338px;
+  height: 48px;
+  border: 1px solid #8C8C8C;
+  border-radius: 35px;
+}
+
+.home__image1 {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+}
+.home__image1-text {
+  position: absolute;
+  left: 163px;
+  bottom: 103px;
+  width: 660px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: capitalize;
+  /* Color 3 */
+  color: #FFFFFF;
+}
+
 body {
   font-family: 'Urbanist', sans-serif;
 }
