@@ -96,7 +96,6 @@ select {
 }
 .header {
   height: 158px;
-  width: 1714px;
   margin: 0px 103px;
   display: flex;
   justify-content: space-between;
@@ -136,7 +135,6 @@ select {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid black;
-  width: 1714px;
   height: 80px;
   margin: 0px 103px;
 }
@@ -185,8 +183,4 @@ select {
   text-transform: capitalize;
   /* Color 3 */
   color: #FFFFFF;
-}
-
-body {
-  font-family: 'Urbanist', sans-serif;
 }

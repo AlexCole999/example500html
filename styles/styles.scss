@@ -1,9 +1,5 @@
-@import './fonts.scss';
-@import './null.scss';
-@import './header.scss';
-@import './menu.scss';
-@import './home.scss';
-
-body {
-  font-family: 'Urbanist', sans-serif;
-}
+@import './fonts/fonts.scss';
+@import './null/null.scss';
+@import './components/header.scss';
+@import './components/menu.scss';
+@import './components/home.scss';
