@@ -182,8 +182,54 @@ select {
   font-size: 48px;
   line-height: 60px;
   text-transform: capitalize;
-  /* Color 3 */
   color: #FFFFFF;
+}
+.home__screen3 {
+  margin-top: 345px;
+  background: url("../images/screen3bg.jpg");
+  width: 100%;
+  height: 1367px;
+}
+.home__screen3title {
+  max-width: 1530px;
+  padding-top: 150px;
+  padding-left: 163px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  text-transform: capitalize;
+}
+.home__screen3imgcontainer {
+  position: relative;
+  padding-top: 54px;
+  padding-left: 8.5%;
+  padding-right: 8.5%;
+  width: 100%;
+}
+.home__screen3img {
+  width: 100%;
+}
+.home__screen3textcontainer {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 83%;
+  height: 189px;
+  backdrop-filter: blur(25px);
+  margin-left: 8.5%;
+  margin-right: 8.5%;
+}
+.home__screen3text {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  width: 380px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 58px 0px 58px 63px;
 }
 
 .services {
