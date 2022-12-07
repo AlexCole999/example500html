@@ -313,3 +313,94 @@ select {
 .services__contentelembutton img {
   padding: 0px 0px 0px 20px;
 }
+
+.screen4 {
+  margin-top: 355px;
+  margin-left: 163px;
+  margin-right: 156px;
+}
+.screen4__headerlogo {
+  display: flex;
+  align-items: center;
+}
+.screen4__logotitle {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  margin-left: 4px;
+}
+.screen4__logoline {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-left: 34px;
+}
+.screen4__maincontent {
+  margin-top: 43px;
+  display: flex;
+  gap: 30px;
+}
+.screen4__title {
+  width: 820px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+.screen4__firstcolumnimage {
+  margin-top: 54px;
+}
+.screen4__firstcolumntext {
+  margin-top: 50px;
+  width: 940px;
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 163%;
+}
+.screen4__secondcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.screen4__secondcolumntext {
+  margin-top: 50px;
+  width: 620px;
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 163%;
+}
+.screen4__secondcolumnbuttoncontainer {
+  display: flex;
+  justify-content: end;
+}
+.screen4__secondcolumnbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #111111;
+  border: 1px solid #111111;
+  border-radius: 35px;
+  width: 275px;
+  height: 72px;
+}
+.screen4__secondcolumnbuttontext {
+  margin-left: 14px;
+  width: 189px;
+  height: 24px;
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #FAF7F2;
+}
