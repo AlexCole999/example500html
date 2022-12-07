@@ -166,12 +166,12 @@ select {
   border-radius: 35px;
 }
 
-.home__image1 {
+.home__headerphoto {
   position: relative;
   width: 100%;
   /* for IE 6 */
 }
-.home__image1-text {
+.home__headerphoto-text {
   position: absolute;
   left: 163px;
   bottom: 103px;
@@ -184,4 +184,86 @@ select {
   text-transform: capitalize;
   /* Color 3 */
   color: #FFFFFF;
+}
+
+.services {
+  margin-top: 334px;
+}
+.services__title {
+  margin-left: 753px;
+}
+.services__titlemaintext {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: start;
+}
+.services__titletext {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 423px;
+  margin-top: 8px;
+}
+.services__content {
+  margin-left: 160px;
+  display: flex;
+}
+.services__contentleftside {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  width: 532px;
+  margin-top: 63px;
+}
+.services__contentrightside {
+  display: flex;
+  max-width: 1230px;
+  gap: 30px;
+  padding-left: 60px;
+  padding-top: 43px;
+  overflow: hidden;
+}
+.services__contentelem {
+  min-width: 350px;
+  min-height: 568px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 100px rgba(74, 148, 154, 0.1);
+}
+.services__contentelemimg {
+  padding: 20px;
+}
+.services__contentelemtitle {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  padding: 0px 30px 0px 30px;
+}
+.services__contentelemtext {
+  padding: 14px 32px 18px 32px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.services__contentelembutton {
+  display: flex;
+  padding: 0px 0px 20px 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+.services__contentelembutton img {
+  padding: 0px 0px 0px 20px;
 }

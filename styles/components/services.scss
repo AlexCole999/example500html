@@ -1,0 +1,95 @@
+.services {
+  margin-top: 334px;
+
+  &__title {
+    margin-left: 753px;
+  }
+
+  &__titlemaintext {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: start;
+  }
+
+  &__titletext {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 423px;
+    margin-top: 8px;
+  }
+
+  &__content {
+    margin-left: 160px;
+    display: flex;
+  }
+
+  &__contentleftside {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    width: 532px;
+    margin-top: 63px;
+  }
+
+  &__contentrightside {
+    display: flex;
+    max-width: 1230px;
+    gap: 30px;
+    padding-left: 60px;
+    padding-top: 43px;
+    overflow: hidden;
+  }
+
+  &__contentelem {
+    min-width: 350px;
+    min-height: 568px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(74, 148, 154, 0.1);
+  }
+
+  &__contentelemimg {
+    padding: 20px;
+  }
+
+  &__contentelemtitle {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 30px 0px 30px;
+  }
+
+  &__contentelemtext {
+    padding: 14px 32px 18px 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  &__contentelembutton {
+    display: flex;
+    padding: 0px 0px 20px 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    img {
+      padding: 0px 0px 0px 20px;
+    }
+
+  }
+
+}
