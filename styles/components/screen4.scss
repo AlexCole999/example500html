@@ -31,7 +31,7 @@
   }
 
   &__title {
-    width: 820px;
+    max-width: 820px;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
@@ -46,7 +46,7 @@
 
   &__firstcolumntext {
     margin-top: 50px;
-    width: 940px;
+    max-width: 940px;
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 500;
@@ -62,7 +62,7 @@
 
   &__secondcolumntext {
     margin-top: 50px;
-    width: 620px;
+    max-width: 620px;
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 500;
