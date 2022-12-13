@@ -186,6 +186,26 @@ select {
   border: 0px;
 }
 
+.headerphoto {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+}
+
+.headerphoto-text {
+  position: absolute;
+  left: 163px;
+  bottom: 103px;
+  max-width: 660px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -224,24 +244,6 @@ select {
   border-radius: 35px;
 }
 
-.home__headerphoto {
-  position: relative;
-  width: 100%;
-  /* for IE 6 */
-}
-.home__headerphoto-text {
-  position: absolute;
-  left: 163px;
-  bottom: 103px;
-  max-width: 660px;
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 48px;
-  line-height: 60px;
-  text-transform: capitalize;
-  color: #FFFFFF;
-}
 .home__screen3 {
   margin-top: 345px;
   background: url("../images/screen3bg.jpg");

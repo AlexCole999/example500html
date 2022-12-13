@@ -1,0 +1,19 @@
+.headerphoto {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+}
+
+.headerphoto-text {
+  position: absolute;
+  left: 163px;
+  bottom: 103px;
+  max-width: 660px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
