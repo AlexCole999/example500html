@@ -150,9 +150,10 @@ select {
 
 .header {
   height: 158px;
-  margin: 0px 103px;
+  padding: 0px 103px;
   display: flex;
   justify-content: space-between;
+  background-color: #FDFCFE;
 }
 .header__button {
   width: 24px;
@@ -192,6 +193,9 @@ select {
   border-top: 1px solid black;
   height: 80px;
   margin: 0px 103px;
+}
+.menu__container {
+  background-color: #FDFCFE;
 }
 .menu__itempanel {
   display: flex;

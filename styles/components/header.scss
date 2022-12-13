@@ -1,8 +1,9 @@
 .header {
   height: 158px;
-  margin: 0px 103px;
+  padding: 0px 103px;
   display: flex;
   justify-content: space-between;
+  background-color: #FDFCFE;
 
   &__button {
     width: 24px;

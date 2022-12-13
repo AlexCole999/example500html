@@ -6,6 +6,10 @@
   height: 80px;
   margin: 0px 103px;
 
+  &__container {
+    background-color: #FDFCFE;
+  }
+
   &__itempanel {
     display: flex;
     gap: 36px;
