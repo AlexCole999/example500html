@@ -1,0 +1,60 @@
+.footer {
+  margin-top: 271px;
+  background: url('../images/footerbgc.jpg');
+  width: 100%;
+  display: flex;
+  gap: 123px;
+  padding: 114px 150px 150px 240px;
+
+  &__logo {
+    display: flex;
+    padding-bottom: 44px;
+  }
+
+  &__divider {
+    margin-left: 28px;
+    margin-right: 21px;
+    height: 43px;
+    background-color: #242A2E;
+    width: 1.34px;
+  }
+
+  &__logotext {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    color: #242A2E;
+  }
+
+  &__column {}
+
+  &__subtitle {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #242A2E;
+    padding-bottom: 38px;
+  }
+
+  &__row {
+    max-width: 464px;
+    padding-bottom: 29px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #48545C;
+  }
+
+  &__icons {
+    display: flex;
+    margin-bottom: 36px;
+    gap: 24px;
+  }
+
+}

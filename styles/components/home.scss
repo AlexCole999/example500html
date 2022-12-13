@@ -10,7 +10,7 @@
     position: absolute;
     left: 163px;
     bottom: 103px;
-    width: 660px;
+    max-width: 660px;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 300;
@@ -89,6 +89,302 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 120%;
+  }
+
+  &__screen5elems {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__screen5elem {
+    max-width: 945px;
+    min-height: 540.84px;
+    border: 1px solid black;
+    border-radius: 24px;
+    display: flex;
+  }
+
+  &__screen5elemphoto {
+    padding: 33px 39px 32px 34px;
+  }
+
+  &__screen5elemtextcontainer {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    padding: 86px 95px 0px 0px;
+    max-width: 540px;
+  }
+
+  &__screen5textdivider {
+    margin-top: 39px;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+  }
+
+  &__screen5elemsecondrow {
+    margin-top: 39px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  &__screen5elemthirdrow {
+    margin-top: 10px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8F9396;
+    margin-bottom: 32px;
+  }
+
+  &__screen6 {
+    margin-top: 152px;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+  }
+
+  &__screen6top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__screen6title {
+    max-width: 654px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #1A242D;
+  }
+
+  &__screen6rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__screen6text {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #666666;
+    max-width: 654px;
+  }
+
+  &__screen6about {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    height: 27px;
+    font-size: 16px;
+    line-height: 120%;
+    color: #0A67A6;
+    width: 111.34px;
+    border-bottom: 4px solid #0A67A6;
+    ;
+  }
+
+  &__screen6photo {
+    margin-top: 80px;
+  }
+
+  &__screen7 {
+    margin-top: 355px;
+    margin-left: 163px;
+    margin-right: 156px;
+
+    &headerlogo {
+      display: flex;
+      align-items: center;
+    }
+
+    &logotitle {
+      font-family: 'Urbanist';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 38px;
+      margin-left: 4px;
+    }
+
+    &logoline {
+      width: 100%;
+      height: 2px;
+      background-color: black;
+      margin-left: 34px;
+    }
+
+    &maincontent {
+      margin-top: 80px;
+    }
+
+    &top {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &title {
+      max-width: 642px;
+      font-family: 'Merriweather';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 64px;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #2E2E2E;
+    }
+
+    &text {
+      max-width: 787.14px;
+      font-family: 'Urbanist';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #808080;
+    }
+
+    &cards {
+      display: flex;
+      gap: 21px;
+      margin-top: 40px;
+    }
+
+    &card {
+      width: 518px;
+      min-height: 360px;
+      background: #FFFFFF;
+      border: 1px solid #111111;
+      border-radius: 24px;
+
+      &content {
+        padding: 40px 52px 0px 52px;
+      }
+
+      &title {
+        max-width: 414.29px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #2E2E2E;
+      }
+
+      &text {
+        margin-top: 16px;
+        max-width: 414.29px;
+        padding-bottom: 128px;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #808080;
+      }
+
+    }
+
+  }
+
+  &__screen8 {
+    margin: 185px 170px 0px 147px;
+    display: flex;
+    gap: 155px;
+
+    &rightside {}
+
+    &title {
+      padding-top: 61px;
+      font-family: 'Merriweather';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 120%;
+      letter-spacing: 0.005em;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #1A242D;
+    }
+
+    &text {
+      text-align: start;
+      margin-top: 30px;
+      font-family: 'Urbanist';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 125%;
+      letter-spacing: 0.005em;
+      color: #666666;
+    }
+
+    &statistics {
+      margin-top: 112px;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 24px;
+      column-gap: 93px;
+      max-width: 430px;
+    }
+
+    &statistic {
+
+      &elem {
+        max-width: 176px;
+      }
+
+      &elemtitle {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #1A242D;
+      }
+
+      &elemtext {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #1A242D;
+      }
+
+    }
+
+    &about {
+      margin-top: 48px;
+      width: 120.3px;
+      height: 28px;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 120%;
+      letter-spacing: 0.005em;
+      color: #0A67A6;
+      border-bottom: 4px solid #0A67A6;
+    }
+
   }
 
 }
