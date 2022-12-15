@@ -1,0 +1,19 @@
+.news {
+
+  &__screen1 {
+    margin: 190px 134px 0px 184px;
+  }
+
+  &__title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #1A242D;
+    max-width: 800px;
+    margin-bottom: 107px;
+  }
+
+}
