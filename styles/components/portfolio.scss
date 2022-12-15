@@ -16,4 +16,135 @@
     margin-bottom: 107px;
   }
 
+  &__screen2 {
+
+    &text {
+      margin-top: 242px;
+      margin-left: 35%;
+      margin-bottom: 43px;
+    }
+
+    &title {
+      font-family: 'Merriweather';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 60px;
+      color: #362A43;
+    }
+
+    &subtitle {
+      font-family: 'Urbanist';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #464646;
+      max-width: 423px;
+    }
+
+    &content {
+      display: flex;
+      gap: 63px;
+    }
+
+    &leftside {
+      margin-left: 16.15%;
+    }
+
+    &searchtext {
+      font-family: 'Urbanist';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      color: #808080;
+    }
+
+    &input {
+      padding: 12px 13.5px 12px 16px;
+      gap: 10px;
+      background: #FFFFFF;
+      border: 1px solid #E6E6E6;
+      border-radius: 8px;
+      width: 296px;
+      margin-bottom: 53px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #CCCCCC;
+    }
+
+    &filtertitle {
+      font-family: 'Urbanist';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      text-transform: capitalize;
+      color: #121212;
+      margin-bottom: 10px;
+    }
+
+    &filterelem {
+      font-family: 'Urbanist';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 36px;
+      color: #616161;
+    }
+
+    &rightside {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    &card {
+      width: 255px;
+      height: 378px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 100px rgba(74, 148, 154, 0.15);
+      border-radius: 30px;
+
+      &photo {
+        border-radius: 30px;
+      }
+
+      &title {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 33px;
+        text-align: center;
+        color: #362A43;
+        margin-top: 20px;
+      }
+
+      &text {
+        margin-top: 2px;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: rgba(54, 42, 67, 0.6);
+      }
+
+      &icons {
+        display: flex;
+        justify-content: center;
+        gap: 23.4px;
+        margin-top: 16px;
+      }
+
+    }
+
+  }
+
 }
