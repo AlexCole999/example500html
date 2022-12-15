@@ -11,8 +11,10 @@
 /*font-family: 'Poppins',sans-serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap");
 /*font-family: 'Urbanist',sans-serif;*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 /* font-family: 'Open Sans', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+/*font-family: 'Mulish',sans-serif;*/
 /* Указываем box sizing */
 *,
 *::before,
@@ -194,7 +196,7 @@ select {
 
 .footer {
   margin-top: 271px;
-  background: url("../images/footerbg.jpg");
+  background: url("../images/footerbcg.jpg");
   width: 100%;
   display: flex;
   gap: 123px;
@@ -934,7 +936,7 @@ select {
 }
 
 .contact__screen1 {
-  margin: 190px 134px 0px 184px;
+  margin: 194px 109px 0px 216px;
 }
 .contact__title {
   font-family: 'Merriweather';
@@ -946,4 +948,137 @@ select {
   color: #1A242D;
   max-width: 800px;
   margin-bottom: 107px;
+}
+.contact__screen2 {
+  margin-top: 225px;
+}
+.contact__screen2subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #666666;
+  margin-left: 48.75%;
+  margin-bottom: 16px;
+}
+.contact__screen2maintitle {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1A242D;
+  max-width: 1247px;
+  margin-left: 19.5%;
+}
+.contact__screen2services {
+  margin-left: 19.5%;
+  display: flex;
+  margin-top: 175px;
+  gap: 43px;
+}
+.contact__screen2serviceselem {
+  width: 370px;
+  padding-bottom: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-bottom: 1px solid #cececeee;
+}
+.contact__screen2serviceselemtitle {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  color: #151517;
+  opacity: 0.6;
+}
+.contact__screen2serviceselemtext {
+  margin-top: 10px;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #676767;
+  max-width: 250px;
+}
+.contact__form {
+  margin-top: 128px;
+  margin-left: 19.5%;
+  display: flex;
+  column-gap: 19.5px;
+  row-gap: 24px;
+  flex-wrap: wrap;
+}
+.contact__formelem {
+  width: 613px;
+}
+.contact__formelemtitle {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1A242D;
+}
+.contact__formeleminput {
+  background: #F9F9F9;
+  border: 1px solid #D1D1D1;
+  border-radius: 65px;
+  width: 613.76px;
+  height: 56px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #9A9AB0;
+  margin-top: 16px;
+  padding-left: 19.5px;
+}
+.contact__formeleminput-big {
+  background: #F9F9F9;
+  border: 1px solid #D1D1D1;
+  border-radius: 65px;
+  width: 1247px;
+  height: 56px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #9A9AB0;
+  margin-top: 16px;
+  padding-left: 19.5px;
+  height: 229px;
+  text-align: start;
+}
+.contact__button {
+  margin-left: 46.6%;
+  margin-top: 32px;
+  width: 204.59px;
+  height: 56px;
+  background: rgba(255, 179, 201, 0.31);
+  border-radius: 65px;
+  border: 0px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #383838;
 }
